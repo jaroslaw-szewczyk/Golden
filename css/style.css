@@ -1,0 +1,43 @@
+/* Variables */
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+/* Navigation */
+nav .row {
+  align-items: center;
+}
+nav .row h2 {
+  font-size: 56px;
+  color: #fed136;
+  font-family: "Great Vibes", cursive;
+  flex-basis: 30%;
+}
+nav .row .menu-container {
+  flex-basis: 70%;
+}
+nav .row .menu-container ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+}
+nav .row .menu-container ul li {
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBT0EsV0FBQTtBQUVBO0VBQ0ksU0FBQTtFQUNBLFVBQUE7RUFDQSxzQkFBQTtBQ05KOztBRFNBO0VBQ0ksa0JBQUE7RUFDQSxxQ0FmUTtBQ1NaOztBRFNBO0VBQ0kscUJBQUE7RUFDQSx5QkFBQTtFQUNBLGlDQXBCVTtFQXFCVixZQUFBO0FDTko7O0FEU0EsZUFBQTtBQUdHO0VBQ0MsbUJBQUE7QUNSSjtBRFVRO0VBQ0ksZUFBQTtFQUNBLGNBQUE7RUFDQSxtQ0FoQ1k7RUFpQ1osZUFBQTtBQ1JaO0FEV1E7RUFDSSxlQUFBO0FDVFo7QURXWTtFQUNJLGFBQUE7RUFDQSxxQkFBQTtFQUNBLG9CQUFBO0FDVGhCO0FEV2dCO0VBQ0ksa0JBQUE7QUNUcEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

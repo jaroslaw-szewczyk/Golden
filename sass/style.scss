@@ -1,6 +1,6 @@
 /* Variables */
 
-$font-text: 'Montserrat', sans-serif;
+$font-text: "Libre Baskerville", serif;
 $font-header: 'Roboto',sans-serif;
 $additionl-header-font: 'Great Vibes', cursive;
 
@@ -22,15 +22,23 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: $font-header;
-    color: black;
+    color: #fff;
 }
 
 /* Navigation */
 
 nav {
+    z-index: 5;
+    position: absolute;
+    top: 1%;
+    width: 100%;
+
+
    .row {
     align-items: center;
-        
+    z-index: 10;
+    
+
         h2 {
             font-size: 56px;
             color: #fed136;
@@ -52,4 +60,62 @@ nav {
             }
         }
    }
+}
+
+/* Header */
+
+header {
+    background-image: url("/images/header_background.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    .row {
+        height: 100vh;
+
+        .header-title {
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            color: #fff;
+        
+            h2 {
+                font-size: 56px; 
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                margin-bottom: 45px;
+                font-size: 75px;
+                font-family: $font-header;
+                text-transform: uppercase;
+            }
+            
+        }
+
+        .header-btn {
+            z-index: 5;
+            a {
+                text-transform: uppercase;
+                padding: 25px 55px;
+                
+                border-radius: 5px;
+                background-color: #fed136;
+            }
+        }
+
+        &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: .55
+        }
+    }
 }

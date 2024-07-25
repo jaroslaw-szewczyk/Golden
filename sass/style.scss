@@ -28,6 +28,17 @@ a {
     color: #fff;
 }
 
+h2{
+    font-family: $font-header;
+    font-size: 40px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 p {
     color: $text-color;
 }
@@ -136,11 +147,6 @@ header {
     .title-servises{
         text-align: center;
         margin-bottom: 90px;
-
-        h2{
-            font-family: $font-header;
-            font-size: 40px;
-        }
     }
 
     .content-services{
@@ -160,11 +166,42 @@ header {
                 color: $gold-color;
                 margin-bottom: 25px;
             }
+        }
+    }
+}
 
-            h4 {
-                font-weight: bold;
-                font-size: 20px;
-                margin-bottom: 15px;
+/* Our Portfolio */
+
+.our-portfolio {
+    text-align: center;
+    background-color: #f7f7f7;
+
+
+    .our-portfolio-title{
+        margin-bottom: 90px;
+    }
+    
+    .row {
+        justify-content: center;
+            
+        .portfolio-box{
+            flex-basis: 33.333%;
+            margin-bottom: 25px;
+
+
+            .portfolio-img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .portfolio-text {
+                background: #fff;
+                padding: 25px;
+
+                p {
+                    font-style: italic;
+                }
             }
         }
     }

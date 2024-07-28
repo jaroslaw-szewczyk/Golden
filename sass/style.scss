@@ -185,9 +185,9 @@ header {
         justify-content: center;
             
         .portfolio-box{
+            height: 500px;
             flex-basis: 33.333%;
-            margin-bottom: 25px;
-
+            margin-bottom: 60px;
 
             .portfolio-img {
                 img {
@@ -206,3 +206,28 @@ header {
         }
     }
 }
+
+/* Footer */
+
+footer {
+
+    .row {
+        height: 150px;
+    
+    p {
+        flex-basis: 50%;
+    }
+
+    .footer-icon {
+        
+        flex-basis: 50%;
+        
+        i {
+            font-size: 36px;
+            padding-right: 25px;
+        }
+    }
+    }
+}
+
+

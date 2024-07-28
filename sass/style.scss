@@ -185,7 +185,6 @@ header {
         justify-content: center;
             
         .portfolio-box{
-            height: 500px;
             flex-basis: 33.333%;
             margin-bottom: 60px;
 
@@ -231,3 +230,173 @@ footer {
 }
 
 
+/* Media */
+
+/* Navigation */
+
+@media(max-width: 600px) {
+    nav {
+        top: 15px;
+        .row {
+         
+             text-align: center;          
+     
+             h2 {
+                 flex-basis: 100%;
+                 font-size: 46px;    
+             }
+     
+             .menu-container {
+                 flex-basis: 100%;
+                 
+                 ul {
+                    justify-content: center;
+                     li {
+                        margin-right: 10px;
+                         a{
+                             font-size: 14px;
+                         }
+                     }
+                 }
+             }
+        }
+     }
+     
+     
+     /* header */
+     
+     header {
+         
+         
+         .row {
+     
+             .header-title {
+         
+                 h2 {
+                     font-size: 26px; 
+                 }
+     
+                 h1 {
+                     font-size: 56px;
+                 }
+                 
+             }
+     
+             .header-btn {
+                
+                 a {
+                     padding: 25px 45px;
+                 }
+             }
+         }
+        
+     }
+
+     /* footer */
+
+     footer {
+        .row{
+            text-align: center;
+        }
+     }
+     
+}
+
+@media (max-width: 932px) and (orientation: landscape){
+    nav {
+        top: 5px;
+
+        .row {
+             h2 {
+                 flex-basis: 30%;
+                 font-size: 46px;    
+             }
+     
+             .menu-container {
+                 flex-basis: 60%;
+                 
+                 ul {
+                     li {
+                        margin-right: 10px;
+                         a{
+                             font-size: 12px;
+                         }
+                     }
+                 }
+             }
+        }
+     }
+     
+     
+     /* header */
+     
+     header {
+         
+         .row {
+     
+             .header-title {
+         
+                 h2 {
+                     font-size: 24px; 
+                 }
+     
+                 h1 {
+                     font-size: 46px;
+                 }
+                 
+             }
+     
+             .header-btn {
+                margin-top: 25px;
+                 a {
+                     padding: 25px 45px;
+                 }
+             }
+         }
+        
+     }
+
+     /* Our Portfolio */
+
+    .our-portfolio {
+        
+        .row {
+            
+            .portfolio-box{
+                flex-basis: 50%;
+                margin-bottom: 25px;
+
+                .portfolio-text {
+
+                    h4 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+    
+
+     /* footer */
+
+     footer {
+        .row{
+
+            p{
+                font-size: 14px;
+            }
+            .footer-icon {
+                i {
+                    font-size: 36px;
+                    padding-right: 5px;
+                }
+            }
+        }
+     }
+
+    
+}
